@@ -1,0 +1,23 @@
+PODS:
+  - AppleReachability (4.2)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - MJRefresh (3.1.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+
+DEPENDENCIES:
+  - AppleReachability (~> 4.2)
+  - FMDB (~> 2.6)
+  - MJRefresh (~> 3.1.0)
+  - SDWebImage (~> 3.7.5)
+
+SPEC CHECKSUMS:
+  AppleReachability: 997dc4fff932b44fbe1990e6542b03b9bac0dcf2
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+
+COCOAPODS: 0.39.0

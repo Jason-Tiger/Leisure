@@ -1,0 +1,76 @@
+//
+//  PrefixHeader.pch
+//  Leisure
+//
+//  Created by 若愚 on 16/2/10.
+//  Copyright © 2016年 xinghu_wang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define KScreenWidth [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#import "RequestManager.h"
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import <MJRefresh.h>
+#import "NSString+Html.h"
+#import "LandingDB.h"
+#import "WheelView.h"
+//#import <UMSocial.h>
+#import <FMDB.h>
+#import <Reachability.h>
+#import "NetWorkState.h"
+#import "PlayerManager.h"
+
+#define Fit (KScreenWidth / 375)
+
+
+//isOK:0, auth:Xcw9FXixof5DCsR9EMXjlTJxQJaiMeSOpGlpWz0m3cWP229JKTRVa6m3g, coverimg:http://pkimg.image.alimmdn.com/upload/20150714/eb1f9600440df9f4fbf1138b136f7f29.jpeg, icon:, myID:3588085, uname:yollet
+#define KGroupPosts_hotlistUrl @"http://api2.pianke.me/group/posts_hotlist"
+#define KGroupPosts_infoUrl @"http://api2.pianke.me/group/posts_info"
+
+#define KTingRadioUrl @"http://api2.pianke.me/ting/radio"
+#define KTingRadio_detailUrl @"http://api2.pianke.me/ting/radio_detail"
+
+#define KArticleInfoUrl @"http://api2.pianke.me/article/info"
+#define KTingRadio_detailUrl @"http://api2.pianke.me/ting/radio_detail"
+#define KCommentGetUrl @"http://api2.pianke.me/comment/get"
+#define KReadColumnsUrl @"http://api2.pianke.me/read/columns"
+
+#define KReadColumns_detailUrl @"http://api2.pianke.me/read/columns_detail"
+//#define KListUrl @"http://api2.pianke.me/comment/get"
+
+#define KGoodProductsUrl @"http://api2.pianke.me/pub/shop"
+
+#define KLandUrl @"http://api2.pianke.me/user/login"
+
+
+#define KFootUrl @"http://api2.pianke.me/ting/radio_list"
+
+#define KMoreUrl @"http://api2.pianke.me/ting/radio_detail_list"
+#define KMoreUrl @"http://api2.pianke.me/ting/radio_detail_list"
+#define KViewHeight (KScreenHeight - 71 - 100)
+
+// contentid=56df5f455e77435f718b4567&limit=10
+#define KCommentUrl @"http://api2.pianke.me/comment/add"
+#define KDeleteUrl @"http://api2.pianke.me/comment/del"
+
+
+#define KRegUrl @"http://api2.pianke.me/user/reg"
+
+
+
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
